@@ -1,18 +1,10 @@
-#headerkar {
- /* background-color: #f1f1f1;
-  */padding: 50px 10px;
-  color: black;
-  text-align: center;
-  font-size: 90px; 
-  font-weight: bold;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  transition: 0.5s;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .sidenav {
   width: 130px;
-  position: fixed;
+  position: initial;
   z-index: 1;
   top: 20px;
   left: 10px;
@@ -21,7 +13,7 @@
   padding: 8px 0;
 }
 
-.sidenavkar a {
+.sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -29,17 +21,40 @@
   display: block;
 }
 
-.sidenavkar a:hover {
+.sidenav a:hover {
   color: #064579;
 }
 
-.mainkar {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.top-container {
+  background-color: #f1f1f1;
+  padding: 12px;
+  text-align: center;
 }
 
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;margin-left:150px;margin-top:-170px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky1 {
+  position: fixed;
+  top: 18%;
+  width: 20%;
+}
+.sticky1 +.sidenav+ .content, .sticky + .content {padding-top: 102px;margin-left:150px;}
+
+
 @media screen and (max-height: 450px) {
-  .sidenavkar {padding-top: 15px;}
-  .sidenavkar a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
