@@ -52,7 +52,7 @@ body {
   top: 18%;
   width: 20%;
 }
-.sticky1 +.sidenav+ .content, .sticky + .content {padding-top: 102px;margin-left:150px;}
+.sticky1 +.sidenav+ .content, .sticky + .content {padding-top: 102px;margin-left:100px;}
 
 
 @media screen and (max-height: 450px) {
