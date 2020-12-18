@@ -42,7 +42,7 @@ body {
 }
 
 .content {
-  padding: 16px;margin-left:150px;
+  padding: 16px;margin-left:180px;
   margin-top:-170px;
 }
 
@@ -56,7 +56,8 @@ body {
   top: 18%;
   width: 150px;
 }
-.sticky1 +.sidenav+ .content, .sticky + .content {padding-top: 102px;margin-left:150px;}
+.sticky1 +.sidenav+ .content{padding-top: 102px;margin-left:180px;}
+.sticky + .content {padding-top: 102px;margin-left:180px;}
 
 
 @media screen and (max-height: 450px) {
