@@ -25,15 +25,31 @@
     <![endif]-->
   </head>
   <body>
+
+        <div class="wrapper">
+
+          <header>
     <div id="headerkar">Header</div>
 
-<div class="sidenav">
+<div class="sidenav" id="sidenave">
   <a href="#about">About</a>
   <a href="#services">Services</a>
   <a href="#clients">Clients</a>
   <a href="#contact">Contact</a>
 </div>
 
+
+            <img src="assets/logoatyourservice.png" width="170px"  height="80px" />
+        <h1><a href="https://gysskarthik.github.io/serviceneeded/">Karthik</a></h1>
+        
+        
+        <p></p>
+
+        <h3>Vision</h3>
+        <p>Encouraging the students to find their passions and nurturing them to develop into independent thinkers and future leaders.</p>
+ 
+      </header>
+      <section>
 <div class="main">
   <h2>Auto Sidebar</h2>
   <p>This sidebar is as tall as its content (the links), and is always shown.</p>
@@ -50,37 +66,6 @@
   <p>Scroll to the top to remove the effect.</p>
   <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
-
-<script>
-// When the user scrolls down 50px from the top of the document, resize the header's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("headerkar").style.fontSize = "30px";
-  } else {
-    document.getElementById("headerkar").style.fontSize = "90px";
-  }
-}
-</script>
-
-    
-    
-    
-    
-    <div class="wrapper">
-      <header>
-<img src="assets/logoatyourservice.png" width="170px"  height="80px" />
-        <h1><a href="https://gysskarthik.github.io/serviceneeded/">Karthik</a></h1>
-        
-        
-        <p></p>
-
-        <h3>Vision</h3>
-        <p>Encouraging the students to find their passions and nurturing them to develop into independent thinkers and future leaders.</p>
- 
-      </header>
-      <section>
 
       <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
 
@@ -129,6 +114,31 @@ function scrollFunction() {
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
+
+    
+    
+    
+    
+    
+<script>
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("headerkar").style.fontSize = "30px";
+document.getElementById("sidenave").style.fontSize = "25px";    
+    
+  } else {
+    document.getElementById("headerkar").style.fontSize = "90px";
+  }
+}
+</script>
+
+    
+    
+    
+    
     <script src="/serviceneeded/assets/js/scale.fix.js"></script>
     
   </body>
