@@ -6,29 +6,6 @@ body {
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
 }
-.sidenav {
-  height:100%;
-  width: 160px;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  padding-top: 15px;
-  position: initial;
-  }
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #2196F3;
-  
-}
-
-.sidenav a:hover {
-  display: block;
-  color: #064579;
-}
 
 
 .header {
@@ -38,7 +15,7 @@ body {
 }
 
 .content {
-  padding: 16px;margin-left:180px;
+  padding: 16px;
   margin-top:-170px;
 }
 
@@ -47,14 +24,7 @@ body {
   top: 0;
   width: 100%;
 }
-.sticky1 {
-  position: fixed;
-  top: 18%;
-  width: 150px;
-}
-.sticky1 +.sidenav+ .content{padding-top: 102px;margin-left:180px;}
 .sticky + .content {padding-top: 102px;margin-left:180px;}
-
 
 .flex-container {
   display: flex;
@@ -78,17 +48,12 @@ body {
   .flex-container {
     flex-direction: row;
   }
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 @media screen and (max-height: 450px) {
   .flex-container {
     flex-direction: column;
   }
-
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 
 @media print, screen and (max-width: 960px){div.wrapper{width:auto;margin:0}header,section,footer{float:none;position:static;width:auto}header{padding-right:320px}
