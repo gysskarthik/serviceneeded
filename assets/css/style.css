@@ -1,10 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidenav {
+  height:100%;
+  width: 160px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 15px;
+  position: initial;
+  }
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #2196F3;
+  
+}
+
+.sidenav a:hover {
+  display: block;
+  color: #064579;
+}
+
+
+.header {
+  padding: 10px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;margin-left:180px;
+  margin-top:-170px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky1 {
+  position: fixed;
+  top: 18%;
+  width: 150px;
+}
+.sticky1 +.sidenav+ .content{padding-top: 102px;margin-left:180px;}
+.sticky + .content {padding-top: 102px;margin-left:180px;}
 
 
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
-  text-align: center;
 }
 
 .flex-item-left {
@@ -22,10 +76,20 @@
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
   .flex-container {
-    flex-direction: column;
+    flex-direction: row;
   }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
+@media screen and (max-height: 450px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 @media print, screen and (max-width: 960px){div.wrapper{width:auto;margin:0}header,section,footer{float:none;position:static;width:auto}header{padding-right:320px}
   section{border:1px solid #e5e5e5;border-width:1px 0;padding:20px 0;margin:0 0 20px}header a small{display:inline}
