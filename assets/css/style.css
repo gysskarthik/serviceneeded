@@ -13,7 +13,7 @@ body {
   background: #555;
   color: #f1f1f1;
 }
-
+.footer{float:none;position:static;width:auto; align:center;}
 .content {
   padding: 16px;
   margin-top:-170px;
@@ -26,47 +26,17 @@ body {
 }
 .sticky + .content {padding-top: 102px;margin-left:180px;}
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
-  flex: 45%;
-}
-
-.flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
-  flex: 45%;
-}
-
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: row;
-  }
 }
 
 @media screen and (max-height: 450px) {
-  .flex-container {
-    flex-direction: column;
-  }
 }
 
-@media print, screen and (max-width: 960px){div.wrapper{width:auto;margin:0}header,section,footer{float:none;position:static;width:auto}header{padding-right:320px}
-  section{border:1px solid #e5e5e5;border-width:1px 0;padding:20px 0;margin:0 0 20px}header a small{display:inline}
-  header ul{position:absolute;right:50px;top:52px}
+@media screen and (max-width: 960px){.footer{float:none;position:static;width:auto}
 }
-@media print, screen and (max-width: 720px){body{word-wrap:break-word}header{padding:0}header ul,header p.view{position:static}
-  pre,code{word-wrap:normal}
+@media screen and (max-width: 720px){body{word-wrap:break-word}
 }
-@media print, screen and (max-width: 480px){
-  body{padding:15px}header ul{width:99%}
-  header li,header ul li+li+li{width:33%}
-}
-@media print{
-  body{padding:0.4in;font-size:12pt;color:#444}
+@media screen and (max-width: 480px){
+  body{padding:15px}
 }
