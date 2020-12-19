@@ -10,27 +10,23 @@ body {
   top: 0;
   left: 0;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 15px;
   position: initial;
   }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #2196F3;
-  display: block;
+  
 }
 
 .sidenav a:hover {
+  display: block;
   color: #064579;
 }
 
-/*.top-container {
-  background-color: #f1f1f1;
-  padding: 5px;
-  text-align: justify;
-}*/
 
 .header {
   padding: 10px;
