@@ -18,129 +18,18 @@ flex-direction:row;
 
 }
 
-* {
-  box-sizing: border-box;
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
 }
 
-
-.flex-container1 {
-  display: flex;
-  width:90%;
-  padding:10px;
-  margin:10px;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
+@media screen and (max-height: 450px) {
 }
 
-.flex-item-left1 {
-  padding: 0;
-  flex: 50%;
+@media screen and (max-width: 960px){.footer{float:none;position:static;width:auto}
 }
-
-.flex-item-right1 {
-  padding: 10px;
-  flex: 50%;
+@media screen and (max-width: 720px){body{word-wrap:break-word}
 }
-.img{
-  margin:50px;
-  width:200px;
-  background-color:lightyellow;
-  border-radius: 50%;
+@media screen and (max-width: 480px){
+  body{padding:15px}
 }
-.flex-item-right1 h1{
-  text-align:center;
-  font-size:35px;
-  color:black;
-}
-
-.one {
- display: flex;
-  width:95%;
-  flex-direction: row;
-  margin:10px;
-  margin-top:40px;
-  margin-left:10px;
-}
-.one h3 {
-height:120px;
-Width:120px;
-padding:15px;
-  text-align: center;
-  flex: 30%;
-  font-size:19px;
-  border-radius: 50%;
-  margin-left:10px;
-  background-color: #f1f1f1;
-  color:black;
-  }
-.on {
-  width:100%;
-  flex-direction: row;
-  margin-top:40px;
-  }
-
-.once {
- display: flex;
-  width:95%;
-  flex-direction: row;
-  margin:10px;
-}
-.once h3 {
-    margin:10px;
-height:120px;
-Width:120px;
-  padding:20px;
-  text-align: center;
-  color:black;
-  font-size:18px;
-  }
-
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  border: 1px solid silver;
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.nowrap  { 
-  -webkit-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-}
-
-.wrap    { 
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}  
-.wrap li {
-  background: gold;
-}
-
-.wrap-reverse         { 
-  -webkit-flex-wrap: wrap-reverse;
-  flex-wrap: wrap-reverse;
-}  
-.wrap-reverse li {
-  background: deepskyblue;
-}
-
-.flex-item {
-
-  padding: 5px;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  line-height: 100px;
-  color: black;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
-}
-
