@@ -148,7 +148,7 @@ Width:120px;
   display: flex;
   width:100%;
   padding:10px;
-  margin:12px;
+  margin-top:25px;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
@@ -156,14 +156,12 @@ Width:120px;
 
 .flex-item-left3 {
   padding: 0;
-  height:300px;
   flex: 50%;
 }
 
 .flex-item-right3 {
   padding: 10px;
   flex: 50%;
-  height:300px;
 }
 
 .flex-item-right3 h1{
