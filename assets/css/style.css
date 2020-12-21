@@ -30,16 +30,6 @@ width:200px;
   height:110px;
 margin-top:-10px;}
 
-.flex-item-left1 h1{
-text-align:center;
-font-size:25px;
-margin-top:20px;}
-
-.flex-item-left1 h3{
-text-align:center;
-font-size:18px;
-margin-top:10px;}
-
 .flex-item-right1 {
   padding: 10px;
   flex: 50%;  
@@ -163,10 +153,15 @@ Width:120px;
   height:300px;
   flex: 50%;
 }
-.flex-item-left3 h1 {
-    color: #003300;
-    margin: 0;
-  }
+.flex-item-left3 h1{
+text-align:center;
+font-size:25px;
+margin-top:20px;}
+
+.flex-item-left3 h3{
+text-align:center;
+font-size:18px;
+margin-top:10px;}
 
 .flex-item-right3 {
   padding: 10px;
