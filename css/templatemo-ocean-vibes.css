@@ -145,10 +145,8 @@ border: 10px solid #D2D3D4;font-size: 25px;
 }
 
 
-
-
   .entry-formkar {
-    background: #252020;
+    background: #ffffb3;
     border-radius: 100%;
     text-align: center;
     padding: 6em;
@@ -156,9 +154,12 @@ border: 10px solid #D2D3D4;font-size: 25px;
     width: 450px;
     height: 450px;
   }
-
-  .entry-formkar h2 {
-    color: #ffffff;
+.entry-formkar img{
+	padding: 6em;
+    margin-left:150px;
+}
+  .entry-formkar h1 {
+    color: #003300;
     margin: 0;
   }
 
