@@ -108,18 +108,18 @@ a {
 
 .tm-nav-item {
     list-style: none;
-    margin: 22px;
+    margin: 10px;
 }
 
 .tm-nav-link {
     display: flex;
     align-items: center;    
     flex-direction: column;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: 1px solid #D2D3D4;
-    border-radius: 85px;
-    padding: 20px;
+    border-radius: 100px;
+    padding: 10px;
     color: #999; font-size: 18px;
     box-sizing: border-box;
 }
@@ -127,8 +127,8 @@ a {
 .tm-nav-link:hover,
 .tm-nav-link.active {
     color: #309AFD;
-    border-radius: 85px;
-border: 10px solid #D2D3D4;font-size: 25px;
+    border-radius: 100px;
+border: 10px solid #D2D3D4;font-size: 20px;
 }
 
 .tm-nav-link i {
@@ -139,7 +139,7 @@ border: 10px solid #D2D3D4;font-size: 25px;
 .tm-main-nav ul {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-right: auto;
 }
 
