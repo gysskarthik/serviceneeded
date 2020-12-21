@@ -43,6 +43,10 @@ body {
   height:300px;
   flex: 50%;
 }
+.flex-item-left2 h1 {
+    color: #003300;
+    margin: 0;
+  }
 
 .flex-item-right2 {
   padding: 10px;
