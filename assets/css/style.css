@@ -139,6 +139,6 @@ Width:120px;
   transition: 0.1s;
 }
 .content {margin-top:100px;padding-top:15px; 
-  padding-left:15px;padding-right:15px;
+  padding-left:15px;padding-right:15px;height:100%;
 }
 .footer{float:none;position:static;width:auto; align:center;}
