@@ -155,13 +155,13 @@ border: 10px solid #D2D3D4;font-size: 25px;
     width: 450px;
     height: 450px;
   }
-.entry-formkar img{
-	padding: 0.2em;
-}
-  .entry-formkar h1 {
-    color: #003300;
-    margin: 0;
+.entry-formkar .imgkar{
+  margin:50px;
+  height:250px;
+  width:250px;
+  background-color:lightyellow;
   }
+
 
   .entry-formkar .form-controlkar {
     background: transparent;
