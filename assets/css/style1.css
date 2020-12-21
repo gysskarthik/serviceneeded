@@ -1,5 +1,19 @@
 @media screen and (max-width: 960px){.footer{float:none;position:static;width:auto}
-
+* {
+  box-sizing: border-box;
+}
+body{
+   background-color: lightyellow;
+}
+  .flex-container1 {
+    flex-direction: row;
+  }
+  .flex-container2 {
+    flex-direction: row;
+  }
+  .flex-container3 {
+    flex-direction: row;
+  }
 
 
 }
@@ -7,7 +21,21 @@
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
-
+* {
+  box-sizing: border-box;
+}
+body{
+   background-color: lightyellow;
+}
+  .flex-container1 {
+    flex-direction: row;
+  }
+  .flex-container2 {
+    flex-direction: row;
+  }
+  .flex-container3 {
+    flex-direction: row;
+  }
 
 
 
@@ -16,7 +44,21 @@
 }
 
 @media screen and (max-width: 720px){body{word-wrap:break-word}
-
+* {
+  box-sizing: border-box;
+}
+body{
+   background-color: lightyellow;
+}
+  .flex-container1 {
+    flex-direction: column;
+  }
+  .flex-container2 {
+    flex-direction: column;
+  }
+  .flex-container3 {
+    flex-direction: row;
+  }
 
 
 
@@ -34,6 +76,12 @@ body{
   .flex-container1 {
     flex-direction: column;
   }
+  
+    .flex-container2 {
+    flex-direction: column;
+  }  .flex-container3 {
+    flex-direction: column;
+  }
 .one{
 flex-direction:row;
   }
@@ -45,8 +93,21 @@ flex-direction:row;
 
 
 @media screen and (max-width: 480px){
-  body{padding:15px}
-
+* {
+  box-sizing: border-box;
+}
+body{
+   background-color: lightyellow;
+}
+  .flex-container1 {
+    flex-direction: column;
+  }
+  .flex-container2 {
+    flex-direction: column;
+  }
+  .flex-container3 {
+    flex-direction: column;
+  }
 
 }
 
@@ -54,7 +115,20 @@ flex-direction:row;
 
 
 @media screen and (max-height: 450px) {
-
-
+* {
+  box-sizing: border-box;
+}
+body{
+   background-color: lightyellow;
+}
+  .flex-container1 {
+    flex-direction: column;
+  }
+  .flex-container2 {
+    flex-direction: column;
+  }  
+  .flex-container3 {
+    flex-direction: column;
+  }
 }
 
