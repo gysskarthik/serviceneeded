@@ -13,7 +13,6 @@ https://templatemo.com/tm-554-ocean-vibes
 <meta property="og:title" content="Welcome to GitHub Pages" />
 <meta property="og:locale" content="en_US" />
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="canonical" href="https://gysskarthik.github.io/serviceneeded.co.in/" />
 <meta property="og:url" content="https://gysskarthik.github.io/serviceneeded.co.in/" />
 <meta property="og:site_name" content="serviceneeded" />
@@ -29,10 +28,11 @@ https://templatemo.com/tm-554-ocean-vibes
     <link rel="stylesheet" href="css/templatemo-ocean-vibes.css"> 
   </head>
   <body>
-<div id="header">
-  <div class="flex-container1">
+<div class="header" id="myHeader">
+
+ <div class="flex-container1">
     <div class="flex-item-left1">
-       <a href="https://gysskarthik.github.io/serviceneeded.co.in/"></a><img class="imgthik" src="assets/logoatyourservice.png"  />
+       <a href="https://gysskarthik.github.io/serviceneeded.co.in/"></a><img src="assets/logoatyourservice.png"  />
     </div>
     <div class="flex-item-right1">
       <ul class="flex-container">
@@ -43,15 +43,9 @@ https://templatemo.com/tm-554-ocean-vibes
        <li class="flex-item">  <a href="#contact">Contact</a></li>
      </ul>
     </div>
-  </div>
+ </div>
 </div>
-<div class="icon-bar">
-  <a href="#" class="facebook fa fa-facebook"></a> 
-  <a href="#" class="twitter fa fa-twitter"></a> 
-  <a href="#" class="google fa fa-google"></a> 
-  <a href="#" class="linkedin fa fa-linkedin"></a>
-  <a href="#" class="youtube fa fa-youtube"></a> 
-</div>
+      
       
 <div class="content">    
  <div class="flex-container2">
@@ -667,6 +661,23 @@ function scrollFunction() {
   }
 }
 </script>-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+      
+      
+      
     <script src="/serviceneeded/assets/js/scale.fix.js"></script>
     
   </body>
