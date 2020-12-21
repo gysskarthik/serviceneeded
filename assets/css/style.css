@@ -9,9 +9,9 @@ body {
 
 .flex-container1 {
   display: flex;
-  width:90%;
+  width:100%;
   padding:10px;
-  margin:10px;
+  margin:0;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
@@ -26,7 +26,7 @@ body {
   padding: 10px;
   flex: 50%;
 }
-.img{
+.imgkar{
   margin:50px;
   width:200px;
   background-color:lightyellow;
@@ -132,11 +132,8 @@ Width:120px;
   padding: 0;
   height:75px;
   color: black;
-  font-size: 30px; 
-  position: fixed;
   top: 0;
   width: 100%;
-  transition: 0.1s;
 }
 .content {margin-top:100px;padding-top:15px; 
   padding-left:15px;padding-right:15px;height:100%;
