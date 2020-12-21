@@ -19,22 +19,47 @@ body {
 
 .flex-item-left1 {
   padding: 0;
-  height:300px;
   flex: 50%;
 }
 
 .flex-item-right1 {
   padding: 10px;
-  flex: 50%;
-  height:300px;
+  flex: 50%;  
 }
-.imgkar{
+
+
+.flex-container2 {
+  display: flex;
+  width:100%;
+  padding:10px;
+  margin:0;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left2 {
+  padding: 0;
+  height:300px;
+  flex: 50%;
+}
+.flex-item-left2 .imgkar{
   margin:50px;
   width:200px;
   background-color:lightyellow;
   border-radius: 50%;
 }
-.flex-item-right1 h1{
+
+.flex-item-right2 {
+  padding: 10px;
+  flex: 50%;
+  height:300px;
+}
+
+
+
+
+.flex-item-right2 h1{
   text-align:center;
   font-size:35px;
   color:black;
