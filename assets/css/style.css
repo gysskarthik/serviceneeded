@@ -19,12 +19,14 @@ body {
 
 .flex-item-left1 {
   padding: 0;
+  height:300px;
   flex: 50%;
 }
 
 .flex-item-right1 {
   padding: 10px;
   flex: 50%;
+  height:300px;
 }
 .imgkar{
   margin:50px;
