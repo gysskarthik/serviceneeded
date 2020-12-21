@@ -149,10 +149,8 @@ Width:120px;
   display: flex;
   width:100%;
   padding:10px;
-  margin-top:25px;
+  margin-top:55px;
   flex-direction: row;
-  font-size: 30px;
-  text-align: center;
 }
 
 .flex-item-left3 {
@@ -161,34 +159,20 @@ Width:120px;
 }
 
 .flex-item-right3 {
-  padding: 10px;
+  padding: 5px;
   flex: 50%;
 }
 
-.flex-item-right3 h1{
-  text-align:center;
-  font-size:35px;
-  color:black;
-}
-
-
-
-.flex-container4 {
-  width: 350px;
+.flex-container4 {  
   padding: 5px;
   margin: 5px;
   list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
   display: flex;
 }
 
 .flex-item4 {
   border: 1px solid silver;
-  -ms-box-orient: horizontal;
+flex-direction:row;
   padding: 4px;
   margin-left: 10px;
   width: 70px;
