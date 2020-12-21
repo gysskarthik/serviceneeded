@@ -125,23 +125,18 @@ Width:120px;
   text-align: center;
 }
 
-
-.header {
-  padding: 10px;
-  background: #555;
-  color: #f1f1f1;
-}
-.footer{float:none;position:static;width:auto; align:center;}
-.content {
-  width:100%;
-  padding: 15px;
-  margin-top:70px;
-}
-
-.sticky {
+#header {
+  background-color: #f1f1f1;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
   position: fixed;
   top: 0;
   width: 100%;
+  transition: 0.2s;
 }
-.sticky + .content {margin-top:70px;padding-top: 15px; width:100%;}
-
+.content {margin-top:70px;padding:15px 15px 250px;
+}
+.footer{float:none;position:static;width:auto; align:center;}
