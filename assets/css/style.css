@@ -10,10 +10,10 @@ body {
 .flex-container1 {
   display: flex;
   width:100%;
-  padding:25px;
+  padding:5px;
   margin:0;
+  flex-align:center;
   flex-direction: row;
-  font-size: 30px;
   text-align: center;
 }
 
