@@ -10,7 +10,7 @@ body {
 .flex-container1 {
   display: flex;
   width:100%;
-  padding:10px;
+  padding:25px;
   margin:0;
   flex-direction: row;
   font-size: 30px;
@@ -22,8 +22,8 @@ body {
   flex: 50%;
 }
 .flex-item-left1  img{
-width:185px;
-  height:95px;
+width:200px;
+  height:110px;
 margin-top:-10px;}
 
 .flex-item-right1 {
