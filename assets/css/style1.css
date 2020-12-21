@@ -1,3 +1,28 @@
+@media screen and (max-width: 960px){.footer{float:none;position:static;width:auto}
+
+
+
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 720px){body{word-wrap:break-word}
+
+
+
+
+
+}
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 600px) {
 * {
@@ -19,17 +44,17 @@ flex-direction:row;
 }
 
 
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 800px) {
-}
-
-@media screen and (max-height: 450px) {
-}
-
-@media screen and (max-width: 960px){.footer{float:none;position:static;width:auto}
-}
-@media screen and (max-width: 720px){body{word-wrap:break-word}
-}
 @media screen and (max-width: 480px){
   body{padding:15px}
+
+
 }
+
+
+
+
+@media screen and (max-height: 450px) {
+
+
+}
+
