@@ -138,6 +138,6 @@ Width:120px;
   width: 100%;
   transition: 0.1s;
 }
-.content {margin-top:70px;padding:15px 15px 250px;
+.content {margin-top:100px;padding:15px 15px 2500px;
 }
 .footer{float:none;position:static;width:auto; align:center;}
