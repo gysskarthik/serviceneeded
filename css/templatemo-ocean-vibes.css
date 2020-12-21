@@ -147,19 +147,16 @@ border: 10px solid #D2D3D4;font-size: 25px;
 
 
   .entry-formkar {
-    background: #ffffb3;
+   background-color:lightyellow;
     border-radius: 100%;
     text-align: center;
-    padding: 6em;
-    margin-left:150px;
+    padding: 20px;
     width: 450px;
     height: 450px;
   }
-.entry-formkar .imgkar{
-  margin:50px;
+.imgkar{
   height:250px;
   width:250px;
-  background-color:lightyellow;
   }
 
 
