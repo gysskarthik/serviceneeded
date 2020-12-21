@@ -11,6 +11,14 @@ table, th, td {
   border: 1px solid black;
 }
 
+.social-icon ul{
+display:flex;
+  flex-direction:row;
+}
+.social-icon ul li{
+list-style:none;
+}
+
 .flex-container1 {
   display: flex;
   width:100%;
