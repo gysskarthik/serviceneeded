@@ -117,15 +117,19 @@ a {
     flex-direction: column;
     width: 200px;
     height: 200px;
-    padding: 30px;
     border: 1px solid #D2D3D4;
+    border-radius: 85px;
+    padding: 30px;
     color: #999; 
+	
     box-sizing: border-box;
 }
 
 .tm-nav-link:hover,
 .tm-nav-link.active {
-    color: #309AFD;border: 10px solid #D2D3D4;font-size: 25px;
+    color: #309AFD;
+    border-radius: 85px;
+border: 10px solid #D2D3D4;font-size: 25px;
 }
 
 .tm-nav-link i {
