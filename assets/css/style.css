@@ -93,6 +93,19 @@ Width:120px;
   display: flex;
 }
 
+.flex-item {
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  padding: 4px;
+  margin-left: 10px;
+  width: 70px;
+  height: 40px;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+
 .nowrap  { 
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
@@ -114,18 +127,6 @@ Width:120px;
   background: deepskyblue;
 }
 
-.flex-item {
-  border: 1px solid silver;
-  -ms-box-orient: horizontal;
-  padding: 2px;
-  margin: 5px;
-  width: 70px;
-  height: 50px;
-  color: black;
-  font-size: 12px;
-  text-align: center;
-}
-
 #header {
   background-color: #f1f1f1;
   padding: 0;
@@ -135,7 +136,7 @@ Width:120px;
   position: fixed;
   top: 0;
   width: 100%;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .content {margin-top:70px;padding:15px 15px 250px;
 }
