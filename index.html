@@ -27,13 +27,8 @@ https://templatemo.com/tm-554-ocean-vibes
     <link rel="stylesheet" href="css/templatemo-ocean-vibes.css"> 
   </head>
   <body>
-
-<div class="header" id="myHeader">
-    <header class="tm-site-header">
-        <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">OCEAN</span> <span class="tm-color-gray-2">vibes</span></h1>
-        <em class="tm-tagline tm-color-light-gray">simple and effective design</em>
-    </header>
-
+<div id="header">
+ <header class="tm-site-header">
   <div class="flex-container1">
     <div class="flex-item-left1">
        <a href="https://gysskarthik.github.io/serviceneeded.co.in/"></a><img src="assets/logoatyourservice.png" width="185px"  height="95px" />
@@ -48,8 +43,8 @@ https://templatemo.com/tm-554-ocean-vibes
      </ul>
     </div>
   </div>
+ </header>
 </div>
-
 <div class="content">
 
   <div class="flex-container1">
@@ -631,40 +626,28 @@ https://templatemo.com/tm-554-ocean-vibes
   
   
   
-<footer class="tm-footer">
-        <span>Copyright &copy; 2020 Your Company</span>
-        <span>Web Designed by 
-        <a href="https://templatemo.com" title="free website templates" target="_parent" rel="nofollow">TemplateMo</a></span>
-</footer>
-  
-   <div class="footer">
-        <p class="view"><a href="https://github.com/gysskarthik/serviceneeded">View the Project on GitHub <small>gysskarthik/serviceneeded</small></a></p>
-        <p>This project is maintained by <a href="https://github.com/gysskarthik">gysskarthik</a></p>        
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-   </div>
-  
+<div class="footer">
+   <span>Copyright &copy; 2020 Your Company</span>
+   <span>Web Designed by <a href="https://templatemo.com" title="free website templates" target="_parent" rel="nofollow">TemplateMo</a></span>
+   <p class="view"><a href="https://github.com/gysskarthik/serviceneeded">View the Project on GitHub <small>gysskarthik/serviceneeded</small></a></p>
+   <p>This project is maintained by <a href="https://github.com/gysskarthik">gysskarthik</a></p>        
+   <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+</div>
 </div>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>    
     <script src="js/templatemo-script.js"></script>
-
 <script>
-window.onscroll = function() {myFunction()};
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
 
-var header = document.getElementById("myHeader");
-var sidenav = document.getElementById("mysidenav");
-var sticky = header.offsetTop;
-var sticky1 = sidenav.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-    sidenav.classList.add("sticky1");
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.fontSize = "30px";
   } else {
-    header.classList.remove("sticky");
-    sidenav.classList.remove("sticky1");
+    document.getElementById("header").style.fontSize = "90px";
   }
 }
 </script>
