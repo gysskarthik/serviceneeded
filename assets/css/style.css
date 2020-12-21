@@ -25,10 +25,20 @@ table, th, td {
   padding: 0;
   flex: 50%;
 }
-.flex-item-left1  img{
+.flex-item-left1 img{
 width:200px;
   height:110px;
 margin-top:-10px;}
+
+.flex-item-left1 h1{
+text-align:center;
+font-size:25px;
+margin-top:20px;}
+
+.flex-item-left1 h3{
+text-align:center;
+font-size:18px;
+margin-top:10px;}
 
 .flex-item-right1 {
   padding: 10px;
