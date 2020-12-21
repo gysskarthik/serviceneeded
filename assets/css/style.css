@@ -73,6 +73,10 @@ body {
   padding: 0;
   flex: 50%;
 }
+.flex-item-left1  img{
+width:185px;
+  height:95px;
+margin-top:-10px;}
 
 .flex-item-right1 {
   padding: 10px;
