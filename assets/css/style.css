@@ -53,8 +53,14 @@ margin-top:-10px;}
 }
 .flex-item-left2 h1 {
     color: #003300;
-    margin: 0;
-  }
+    text-align:center;
+font-size:25px;
+margin-top:20px;}
+
+.flex-item-left2 h3{
+text-align:center;
+font-size:18px;
+margin-top:10px;}
 
 .flex-item-right2 {
   padding: 10px;
@@ -153,15 +159,6 @@ Width:120px;
   height:300px;
   flex: 50%;
 }
-.flex-item-left3 h1{
-text-align:center;
-font-size:25px;
-margin-top:20px;}
-
-.flex-item-left3 h3{
-text-align:center;
-font-size:18px;
-margin-top:10px;}
 
 .flex-item-right3 {
   padding: 10px;
